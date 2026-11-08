@@ -141,6 +141,30 @@
 
 <br/>
 
+<h3 align="center">Currently Building</h3>
+
+<div align="center">
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Goal</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Emmanueltankam/zk-password-manager"><b>ZK PASSWORD MANAGER</b></a><br/><i>(Applied Cryptography)</i></td>
+    <td>Zero-knowledge password manager, web vault + browser extension: Argon2id, AES-256-GCM, specifications and STRIDE threat model written before the code.</td>
+    <td align="center"><img src="https://img.shields.io/badge/M0-design-E3B341?style=flat-square" alt="M0 design"/></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Emmanueltankam/ad-security-lab"><b>AD SECURITY LAB</b></a><br/><i>(Identity Security)</i></td>
+    <td>Build, harden and monitor an Active Directory domain in my home lab, with Wazuh detection use cases for common identity attacks.</td>
+    <td align="center"><img src="https://img.shields.io/badge/status-in%20progress-E3B341?style=flat-square" alt="In progress"/></td>
+  </tr>
+</table>
+</div>
+
+<br/>
+
 <h3 align="center">Experience</h3>
 
 <div align="center">
