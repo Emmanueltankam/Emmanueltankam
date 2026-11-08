@@ -81,6 +81,7 @@
 <br/>
 
 <h3 align="center">Featured Engineering</h3>
+<p align="center"><sub>Click a project name to open its repository</sub></p>
 
 <div align="center">
 <table>
@@ -90,7 +91,16 @@
     <th>Stack</th>
   </tr>
   <tr>
-    <td align="center"><b>SOC LAB</b><br/><i>(Detection & Forensics)</i></td>
+    <td align="center"><a href="https://github.com/Emmanueltankam/detection-rules-lab"><b>DETECTION RULES LAB</b></a><br/><i>(Detection Engineering)</i></td>
+    <td><b>Detection-as-code.</b><br/><b>10 Sigma rules</b> mapped to MITRE ATT&CK v19, each proven against synthetic attack and benign logs (<b>43 automated tests</b>) and automatically converted to <b>Splunk & Elastic</b> queries in CI.</td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Sigma-2B2B2B?style=flat-square" alt="Sigma"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/><br/>
+      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Emmanueltankam/soc-lab-zeek-elastic"><b>SOC LAB</b></a><br/><i>(Detection & Forensics)</i></td>
     <td><b>IDS ↔ SIEM correlation.</b><br/>Correlated a passive IDS (Zeek) with Elasticsearch & Kibana to investigate an <b>SSH brute force (592 events)</b> and a <b>denial of service (160,779 events)</b>. Log integrity guaranteed with X-Pack.</td>
     <td align="center">
       <img src="https://img.shields.io/badge/Zeek-0F4C81?style=flat-square" alt="Zeek"/>
@@ -99,7 +109,7 @@
     </td>
   </tr>
   <tr>
-    <td align="center"><b>HA CLUSTER</b><br/><i>(R&D · Virtualization)</i></td>
+    <td align="center"><a href="https://github.com/Emmanueltankam/proxmox-vs-esxi-ha-cluster"><b>HA CLUSTER</b></a><br/><i>(R&D · Virtualization)</i></td>
     <td><b>Proxmox VE vs VMware ESXi 8.</b><br/>Nested-virtualization lab: <b>2-node Proxmox cluster</b>, VLANs, shared storage, <b>live migration</b> and a Debian 13 QDevice against split-brain. Troubleshot Corosync (SSL certificates / NSSDB).</td>
     <td align="center">
       <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox"/>
@@ -108,7 +118,7 @@
     </td>
   </tr>
   <tr>
-    <td align="center"><b>SECURE HOME LAB</b><br/><i>(SecOps Automation)</i></td>
+    <td align="center"><a href="https://github.com/Emmanueltankam/secure-homelab-secops"><b>SECURE HOME LAB</b></a><br/><i>(SecOps Automation)</i></td>
     <td><b>Private infrastructure & AI-driven workflows.</b><br/>Self-hosted platform on Proxmox VE and Docker, remote access hardened with <b>Tailscale + UFW</b>, and <b>n8n workflows connected to AI agents</b> to automate security operations.</td>
     <td align="center">
       <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox"/>
@@ -118,7 +128,7 @@
     </td>
   </tr>
   <tr>
-    <td align="center"><b>PENTEST & BLOCKCHAIN</b><br/><i>(Offensive Security)</i></td>
+    <td align="center"><a href="https://github.com/Emmanueltankam/pentest-and-blockchain"><b>PENTEST & BLOCKCHAIN</b></a><br/><i>(Offensive Security)</i></td>
     <td><b>From recon to exploitation.</b><br/>OSINT reconnaissance, then exploitation with <b>Hydra, command injection and reverse shells</b>. Also built a <b>cryptocurrency from scratch</b> (consensus, cryptographic hashing).</td>
     <td align="center">
       <img src="https://img.shields.io/badge/Kali-557C94?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali"/>
