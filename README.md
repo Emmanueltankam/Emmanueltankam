@@ -136,6 +136,15 @@
       <img src="https://img.shields.io/badge/Blockchain-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain"/>
     </td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Emmanueltankam/vlan-802.1q-lab"><b>VLAN 802.1Q LAB</b></a><br/><i>(Network Segmentation)</i></td>
+    <td><b>Two isolated VLANs over one trunk.</b><br/>802.1Q trunk between a switch and an ESXi vSwitch, a <b>single-NIC host tagging both VLANs</b>, full Cisco IOS configs, test evidence and STP / CDP troubleshooting (Packet Tracer).</td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Cisco%20IOS-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Cisco IOS"/>
+      <img src="https://img.shields.io/badge/802.1Q-2F81F7?style=flat-square" alt="802.1Q"/><br/>
+      <img src="https://img.shields.io/badge/ESXi-607078?style=flat-square&logo=vmware&logoColor=white" alt="ESXi"/>
+    </td>
+  </tr>
 </table>
 </div>
 
